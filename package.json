@@ -1,0 +1,19 @@
+{
+  "name": "discord-member-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord pour gérer les membres et afficher les statistiques",
+  "main": "member_manager.js",
+  "scripts": {
+    "start": "node member_manager.js",
+    "dev": "node member_manager.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0"
+  }
+}
